@@ -1,11 +1,9 @@
-let button = document.querySelector("#botao")
+let button = document.querySelector("#mensagem")
 button.style.background="black"
 
-button.addEventListener("mouseover", e =>{button.style.background="green";})
+ button.addEventListener("mouseover", e =>{button.style.background="green";})
 
-button.addEventListener("mouseout", e =>{button.style.background="blue"});
+    button.addEventListener("mouseout", e =>{button.style.background="blue"});
 
-
-    function mostrarMensagem() {
-            document.getElementById("mensagem")= "JESUS TE AMA!";
-          }
+    function mensagem(){document.getElementById("mensagem").textContent= "JESUS TE AMA"}
+  
