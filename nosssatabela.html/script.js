@@ -1,9 +1,8 @@
 let button = document.querySelector("#mensagem")
-button.style.background="black"
 
- button.addEventListener("mouseover", e =>{button.style.background="green";})
+  button.addEventListener("mouseover", e =>{button.style.color="green";})
 
-    button.addEventListener("mouseout", e =>{button.style.background="blue"});
+    button.addEventListener("mouseout", e =>{button.style.color="blue"});
 
-    function mensagem(){document.getElementById("mensagem").textContent= "JESUS TE AMA"}
+       function botao(){document.getElementById("mensagem").innerHTML="JESUS TE AMA- joão3:16: porque Deus amou o mundo de tal maneira que deu seu filho unigenito para que todo aquele que nele crer não pereça mas tenha s vida eterna"}
   
