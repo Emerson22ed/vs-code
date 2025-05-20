@@ -1,0 +1,17 @@
+.quadrado{position:absolute; 
+border: solid black; 
+width: 100px; 
+height: 100px; 
+margin:10px; 
+background-color: brown;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+.quadrado2{left: 0px; 
+    bottom: 10px; 
+    background-color: burlywood;}
+.quadrado3{right: 0px; 
+    right:0px; 
+    background-color: blue;}
+.quadrado4{right: 0px; 
+    bottom:0px; 
+    background-color: rgb(135, 222, 208);}

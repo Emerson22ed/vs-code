@@ -1,0 +1,12 @@
+.imagem{
+background: url("foto2.jpeg") no-repeat;
+height: 500px;
+width: 500px;
+display: block;
+background-size: contain;
+}
+.imagem:hover{
+background-position: 0px 50px;
+}
+.imagem:active{background-position: 
+    50px 50px;}
